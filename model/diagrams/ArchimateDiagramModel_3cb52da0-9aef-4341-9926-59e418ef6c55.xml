@@ -25,6 +25,15 @@
           xsi:type="archimate:CompositionRelationship"
           href="CompositionRelationship_7468fdd1-3f65-4737-bb2c-02ae416b1465.xml#7468fdd1-3f65-4737-bb2c-02ae416b1465"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="d26a8d52-2f6b-4d58-bfad-62357f5ac546"
+        source="97e81538-8916-4b5c-ad29-aac3af3abefb"
+        target="e5237343-a7e4-4c47-a483-a9d2ce475202">
+      <archimateRelationship
+          xsi:type="archimate:SpecializationRelationship"
+          href="SpecializationRelationship_1e00ba2c-7a38-4c9b-a4f9-b55ba83c738f.xml#1e00ba2c-7a38-4c9b-a4f9-b55ba83c738f"/>
+    </sourceConnections>
     <bounds
         x="48"
         y="168"
@@ -37,7 +46,8 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="9d9a8074-f6e6-4b62-937e-28f43d43fd62"
-      targetConnections="7e5ba29e-708c-4356-83b5-4aeb8abf0a04 fcc62488-868d-42ff-a33d-c1fa5b29928f">
+      targetConnections="7e5ba29e-708c-4356-83b5-4aeb8abf0a04 fcc62488-868d-42ff-a33d-c1fa5b29928f"
+      type="1">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="9c0c139c-113e-47df-9691-066596f62135"
@@ -95,8 +105,8 @@
       textAlignment="1"
       content="title: Azure integration&#xA;version: P0.1&#xA;created: 2019-03-28&#xA;updated: 2019-03-28">
     <bounds
-        x="228"
-        y="234"
+        x="223"
+        y="252"
         width="145"
         height="73"/>
   </children>
@@ -141,6 +151,19 @@
     <archimateElement
         xsi:type="archimate:ApplicationInterface"
         href="ApplicationInterface_8536804b-85f9-41d7-af2a-fa44ae95ce4c.xml#8536804b-85f9-41d7-af2a-fa44ae95ce4c"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="e5237343-a7e4-4c47-a483-a9d2ce475202"
+      targetConnections="d26a8d52-2f6b-4d58-bfad-62357f5ac546">
+    <bounds
+        x="204"
+        y="168"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:ApplicationComponent"
+        href="ApplicationComponent_7d578ab3-5842-4222-9b2f-dce396a86437.xml#7d578ab3-5842-4222-9b2f-dce396a86437"/>
   </children>
   <properties
       key="title"
